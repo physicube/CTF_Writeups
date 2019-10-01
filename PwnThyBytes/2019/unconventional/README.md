@@ -1,5 +1,4 @@
 # Unconventional - Rev
----
 
 - Solved during CTF.
 
