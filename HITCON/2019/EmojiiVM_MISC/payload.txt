@@ -1,0 +1,147 @@
+push 10
+push 10
+push 10
+mul
+mul
+make_memo
+push 1
+push 0
+push 0
+setb_memo
+push 1
+push 1
+push 0
+setb_memo
+push 0
+push 0
+getb_memo
+print_tos
+push 0
+push 10
+push 3
+mul
+push 2
+add
+add
+print_stack_str
+push 0
+push 10
+push 4
+mul
+push 2
+add
+add
+print_stack_str
+push 0
+push 10
+push 3
+mul
+push 2
+add
+add
+print_stack_str
+print_stack_str
+push 1
+push 0
+getb_memo
+print_tos
+push 0
+push 10
+push 3
+mul
+push 2
+add
+add
+print_stack_str
+push 0
+push 10
+push 6
+mul
+push 1
+add
+add
+print_stack_str
+push 0
+push 10
+push 3
+mul
+push 2
+add
+add
+print_stack_str
+print_stack_str
+push 1
+push 0
+getb_memo
+push 0
+push 0
+getb_memo
+mul
+print_tos
+push 10
+print_stack_str
+push 0
+push 0
+getb_memo
+push 9
+seteq
+push 1
+push 0
+getb_memo
+push 9
+seteq
+and
+push 10
+push 10
+mul
+push 2
+mul
+push 10
+push 2
+mul
+push 4
+add
+add
+jnz
+push 1
+push 0
+getb_memo
+push 9
+seteq
+push 10
+push 10
+mul
+push 2
+mul
+push 0
+add
+push 2
+add
+jz
+push 0
+push 1
+push 0
+setb_memo
+push 0
+push 0
+getb_memo
+push 1
+add
+push 0
+push 0
+setb_memo
+push 1
+push 0
+getb_memo
+push 1
+add
+push 1
+push 0
+setb_memo
+push 10
+push 2
+mul
+push 3
+add
+jmp
+hlt
